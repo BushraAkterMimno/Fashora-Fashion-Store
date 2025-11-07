@@ -23,10 +23,12 @@
       align-items: center;
     }
 
-    .logo {
-      font-size: 1.5rem;
+    .logo img{
+      /* font-size: 1.5rem;
       font-weight: 700;
-      color: #b14bcf;
+      color: #b14bcf; */
+      height: 60px;
+      width: auto;
     }
 
     nav a {
@@ -236,7 +238,7 @@
       cursor: pointer;
       transition: background 0.3s, transform 0.3s;
     }
-    
+
     .cta button:hover {
       background: #f5d9ff;
       transform: scale(1.05);
